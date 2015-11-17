@@ -159,8 +159,8 @@ body {
 	font-style: italic;
 	color: #808080;
 	margin-top: 5px;
-	margin-bottom: 20px;
 	margin-left: 613px;
+	margin-bottom: 20px;
 	text-align: right;
 	display: inline-block;
 }
@@ -188,22 +188,42 @@ body {
 	padding-left: 16px
 }
 
-#date {
+.date {
 	font-family: arial, sans-serif;
 	font-size: 14px;
 	color: #808080;
 }
 
-.link a {
+.link {
 	text-decoration: none;
 	font-size: 18px;
 	color: #1A0DBB;
-	line-height: 1;
-
+	padding-top: 1px;
+	margin-top: 10px;
 }
 
 .url {
 	font-size: 14px;
 	color: #006621;
+	position: relative;
 
+}
+
+.dateresult {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #808080;
+}
+
+.description {
+	font-size: 13px;
+	color: #545454;
+	line-height: 1.5;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#allresults {
+	width: 510px;
+	margin-left: 136px;
 }
