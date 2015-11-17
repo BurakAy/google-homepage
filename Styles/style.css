@@ -142,13 +142,68 @@ body {
 	box-shadow: 0 0 1px silver;
 }
 
-#results {
+#topresults {
 	display: block;
 }
 
-#results p {
+#topresults p {
 	font-family: arial, sans-serif;
 	font-size: 13px;
 	color: #808080;
 	margin-left: 136px;
+}
+
+#topresults #feedback {
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #808080;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 613px;
+	text-align: right;
+	display: inline-block;
+}
+
+#result {
+	width: 555px;
+	box-shadow: 0 1px 3px silver;
+	text-align: left;
+	margin-left: 128px;
+	margin-top: 23px;
+	
+}
+
+#result p {
+	font-size: 16px;
+	padding: 20px 20px;
+	margin: 0;
+	color: #222222;
+	line-height: 1.2;
+}
+
+#result img {
+	float: right;
+	padding-bottom: 20px;
+	padding-left: 16px
+}
+
+#date {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	color: #808080;
+}
+
+.link a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #1A0DBB;
+	line-height: 1;
+
+}
+
+.url {
+	font-size: 14px;
+	color: #006621;
+
 }
