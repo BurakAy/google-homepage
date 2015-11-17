@@ -1,6 +1,7 @@
 html {
 	margin: 0 auto;
 	overflow-y: scroll;
+	min-height: 100%;
 }
 
 body {
@@ -200,6 +201,11 @@ body {
 	color: #1A0DBB;
 	padding-top: 1px;
 	margin-top: 10px;
+	cursor: pointer;
+}
+
+.link:hover {
+	text-decoration: underline;
 }
 
 .url {
@@ -218,12 +224,41 @@ body {
 .description {
 	font-size: 13px;
 	color: #545454;
-	line-height: 1.5;
+	line-height: 18px;
 	margin-top: 0;
 	margin-bottom: 20px;
 }
 
 #allresults {
 	width: 510px;
-	margin-left: 136px;
+	margin-left: 131px;
+	padding-left: 5px;
+}
+
+.relatedsearches {
+	border-top: 1px solid #EBEBEB;
+	border-bottom: 1px solid #EDEDED;
+	width: 510px;
+	margin-left: 128px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: #808080;
+}
+
+.relatedheading {
+	margin-top: 15px;
+	margin-bottom: 6px;
+	padding-left: 3px;
+}
+
+td {
+	font-size: 13px;
+	color: #1A0DAB;
+	line-height: 21px;
+	cursor: pointer;
+	padding-right: 13px;
+}
+
+td:hover {
+	text-decoration: underline;
 }
