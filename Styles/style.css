@@ -37,6 +37,7 @@ body {
 	line-height: 26px;
 	text-align: left;
 	position: absolute;
+	overflow: hidden;
 }
 
 #input:hover {
@@ -335,6 +336,10 @@ footer p {
 	font-size: 13px;
 	color: #777777;
 	text-decoration: none;
+}
+
+.footerlink:hover, .footerlink a:hover {
+	color: black;
 }
 
 nav {
