@@ -317,4 +317,40 @@ tr .number1 {
 	color: black;
 }
 
+footer {
+	border-top: 1px solid #E4E4E4;
+	background: #F2F2F2;
+	margin-top: 19px;
+	max-width: 100%;
+}
+
+footer p {
+	font-size: 13px;
+	color: #AAAAAA;
+	padding-left: 133px;
+	padding-top: 8px;
+}
+
+.footerlink, .footerlink a {
+	font-size: 13px;
+	color: #777777;
+	text-decoration: none;
+}
+
+nav {
+	padding-left: 108px;
+	padding-bottom: 12px;
+	padding-top: 5px;
+}
+
+.footerlink a {
+	padding-left: 27px;
+}
+
+footer p span {
+	font-size: 40px;
+	line-height: 0;
+	vertical-align: middle;
+}
+
 
