@@ -165,7 +165,12 @@ body {
 	margin-bottom: 20px;
 	text-align: right;
 	display: inline-block;
+	cursor: pointer;
 }
+
+#topresults #feedback:hover {
+	text-decoration: underline;
+} 
 
 #result {
 	width: 555px;
