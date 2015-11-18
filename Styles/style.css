@@ -251,7 +251,7 @@ body {
 	padding-left: 3px;
 }
 
-td {
+.relatedsearches td {
 	font-size: 13px;
 	color: #1A0DAB;
 	line-height: 21px;
@@ -259,6 +259,62 @@ td {
 	padding-right: 13px;
 }
 
-td:hover {
+.relatedsearches table:last-child {
+	padding-bottom: 15px;
+}
+
+.relatedsearches td:hover {
 	text-decoration: underline;
 }
+
+.pagenumbersnav {
+	margin-left: 230px;
+	margin-top: 30px;
+}
+
+.pagenumbersnav table {
+	border-spacing: 0;
+}
+
+.pagenumbersnav td {
+	width: 20px;
+	height: 35px;
+	font-size: 13px;
+	color: #4285F4;
+	text-align: center;
+	padding: 0;
+	/*border: 1px solid black;*/
+}
+
+.number img, .number1 img {
+	padding-bottom: 5px;
+	margin: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#glogo img {
+	padding-bottom: 31px;
+}
+
+#glelogo img {
+	padding-bottom: 20px;
+}
+
+#arrow img {
+	padding-bottom: 8px;
+}
+
+.pagenumbersnav td {
+	cursor: pointer;
+}
+
+.pagenumbersnav td:hover {
+	text-decoration: underline;
+}
+
+tr .number1 {
+	color: black;
+}
+
+
